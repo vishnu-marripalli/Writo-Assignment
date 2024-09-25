@@ -157,7 +157,7 @@ const Table = () => {
             type="number"
             // style={{ width: "100%", border: "none", fontSize: "1rem" }}
               className="w-full border-0 text-sm p-1 focus:border-0 outline-none"
-            value={item[column.property] || 0}
+            value={item[column.property] || null}
             onChange={(event) =>
               handleUpdate(Number(event.target.value), item.id, column.property)
             }
