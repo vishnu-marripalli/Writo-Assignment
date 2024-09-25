@@ -3,9 +3,9 @@ import { CompactTable } from "@table-library/react-table-library/compact";
 import { useTheme } from "@table-library/react-table-library/theme";
 import { useSort } from "@table-library/react-table-library/sort";
 import { getTheme } from "@table-library/react-table-library/baseline";
-import Input from "./ui/input";
-import Button from "./ui/Button";
-import Container from "./ui/Container";
+import Input from "../componets/ui/Input";
+import Button from "../componets/ui/Button";
+import Container from "../componets/ui/Container";
 import { Toaster, toast } from 'sonner'
 import gsap from "gsap";
 const initialNodes = [
